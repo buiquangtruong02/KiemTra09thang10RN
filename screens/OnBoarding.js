@@ -17,7 +17,7 @@ const RenderItem = ({ item }) => {
         alignItems: 'center',
         justifyContent: 'center',
         paddingBottom: 100,
-        backgroundColor: 'green',
+        backgroundColor: 'red',
       }}>
       <Image style={styles.introImageStyle} source={item.image} />
       <Text style={styles.introTitleStyle}>{item.title}</Text>
