@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // import LandingScreen from './screens/LandingScreen';
 // import Register from './screens/Register';
 // import Login from './screens/Login';
-import HomeScreen from './screens/HomeScreen';
+import ktra0910 from './screens/ktra0910';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,7 +18,7 @@ export default function App() {
          {/* <Stack.Screen name="LandingScreen" component={LandingScreen} /> */}
         {/* <Stack.Screen name="Register" component={Register} /> */}
         {/* <Stack.Screen name="Login" component={Login} /> */}
-        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="ktra0910" component={ktra0910} />
       </Stack.Navigator>
     </NavigationContainer >
   )
